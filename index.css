@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+#leftPane, #rightPane {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#leftPane {
+    background-color: #f0f0f0;
+}
+
+#rightPane {
+    background-color: #fff;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+#responses p {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
